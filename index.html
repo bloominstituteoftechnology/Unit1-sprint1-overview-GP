@@ -11,42 +11,71 @@
 
 </head>
 <body>
-    About
-    Skills
-    My Name
-    Projects
-    Contact
-
-    Welcome to My Coding Journey...
-    see what skills I'm learning
-
-    <!--About Me Image here-->
-    About Me
-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar. Tellus in metus vulputate eu scelerisque felis. Iaculis eu non diam phasellus vestibulum lorem sed. Faucibus in ornare quam viverra orci sagittis eu volutpat. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Tempus quam pellentesque nec nam aliquam sem et tortor. Ut venenatis tellus in metus vulputate eu. Amet justo donec enim diam. Aliquet nec ullamcorper sit amet risus. Aliquam ut porttitor leo a diam sollicitudin. Sed tempus urna et pharetra.
-
-    My Skills
-    
-    <!--HTML image here-->
-    HTML
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.
-
-    <!--CSS image here-->
-    CSS
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.
-
-    <!--Git Hub image here-->
-    Git / Git Hub
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.
-
-    My Projects
-
-    User Interface
-    Git for Web Development
-    Intro to CSS
-    CSS Layouts
-
-    Get In Touch
-    Email Me
+    <header>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a class ="name" href="#home">My<br>Name</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section id="home">
+        <h1>Welcome to<br>My Coding Journey...</h1>
+        <button>see what skills I'm learning</button>
+    </section>
+    <section id="about">
+        <div class="left">
+            <img src="images/aboutme.jpg" alt="">
+        </div>
+        <div class="right">
+            <h2>About Me</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar. Tellus in metus vulputate eu scelerisque felis. Iaculis eu non diam phasellus vestibulum lorem sed. Faucibus in ornare quam viverra orci sagittis eu volutpat. Vitae purus faucibus ornare suspendisse sed nisi lacus sed. Tempus quam pellentesque nec nam aliquam sem et tortor. Ut venenatis tellus in metus vulputate eu. Amet justo donec enim diam. Aliquet nec ullamcorper sit amet risus. Aliquam ut porttitor leo a diam sollicitudin. Sed tempus urna et pharetra.</p>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>My Skills</h2>
+        <hr>
+        <div class="container">
+            <div class="card">
+                <div class="html"></div>
+                <h3>HTML</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
+            </div>
+            <div class="card">
+                <div class="css"></div>
+                <h3>CSS</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
+            </div>
+            <div class="card">
+                <div class="git"></div>
+                <h3>Git / Git Hub</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis imperdiet proin fermentum leo vel orci porta non pulvinar.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <hr>
+        <div class="container">
+            <div class="box">
+                <a href="" target="_blank"><h3>User<br>Interface</h3></a>
+            </div>
+            <div class="box">
+                <a href="" target="_blank"><h3>Git for<br>Web Development</h3></a>
+            </div>
+            <div class="box">
+                <a href="" target="_blank"><h3>Intro<br>to CSS</h3></a>
+            </div>
+            <div class="box">
+                <a href="" target="_blank"><h3>CSS<br>Layouts</h3></a>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <h2>Get In Touch</h2>
+        <a href=""><button>Email Me</button></a>
+    </footer>
 </body>
 </html>
