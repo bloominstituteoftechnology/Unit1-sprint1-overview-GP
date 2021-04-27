@@ -27,3 +27,13 @@ Sprint 1 Objectives in 1 guided project
 * Site background color - #F7FBFB
 * Title Font - https://fonts.google.com/specimen/Hind+Siliguri
 * Body Font - https://fonts.google.com/specimen/Roboto
+
+## To Do
+* Build the structure of the site using semantic HTML
+* Add classes and id's where appropriate 
+* link CSS stylesheet 
+* build the navigation of the website
+* will need to change the display of the name in the navigation
+* Build the layout of the site section by section using flexbox 
+* style the details of each section, color, margin, etc. 
+* review
