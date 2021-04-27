@@ -1,0 +1,125 @@
+/*Reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*universal reset*/
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+/*General Styles*/
+html{
+    font-size:62.5%;
+}
+body{
+    font-size:1.6rem;
+    line-height:2;
+    font-family: 'Roboto', sans-serif;
+    background-color:#F7FBFB;
+}
+section{
+    padding:4% 0;
+}
+h1, h2, h3{
+    font-family: 'Hind Siliguri', sans-serif;
+    color:#033B58;
+    text-align:center;
+}
+h1{
+    font-size:5rem;
+    text-align:left;
+    color:#F7FBFB;
+}
+h2{
+    font-size:3rem;
+}
+h3{
+    font-size:2.5rem;
+}
+a{
+    text-decoration:none;
+    color: #033B58;
+    font-family: 'Hind Siliguri', sans-serif;
+    transition:2s;
+}
+a:hover{
+    color:#B7CFD1;
+    text-decoration:underline;
+}
+button{
+    font-size:2rem;
+    font-family: 'Roboto', sans-serif;
+    border:3px solid #033B58;
+    color:#033B58;
+    padding:2% 3%;
+    background-color:transparent;
+    transition:2s;
+}
+button:hover{
+    background-color:#033B58;
+    color:#B7CFD1;
+}
+hr{
+    width:30%;
+    text-align:center;
+    margin:1% auto 4% auto;
+    height:5px;
+    background-color:#B7CFD1;
+}
+
+/*Header Section Styles*/
+
+
+
+/*About Section Styles*/
+
+
+
+/*Skills Section Styles*/
+
+
+
+/*Project Section Styles*/
+
+
+
+/*Contact Section Styles*/
