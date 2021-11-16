@@ -10,7 +10,7 @@ Sprint 1 Objectives in 1 guided project
 * Define key terms in git and explain version control
 * Navigate the terminal 
 * Perform git controls in the command line
-* Use the Lambda School git workflow in the command line to submit an assignment 
+* Use the BloomTech git workflow in the command line to submit an assignment 
 #### Intro to CSS
 * Learn about the box model and be able to explain its properties 
 * Demonstrate CSS specificity and inheritance to create and update styles 
